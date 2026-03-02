@@ -1,4 +1,19 @@
 # WBDV-PROJECT
 
+<!DO TYPE html>
 
-<p> Hello</p>
+<html>
+
+      <head>
+
+      </head>
+
+   <body>
+
+ <p> Hello</p>
+
+   <body>
+
+
+
+</html>
