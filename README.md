@@ -1,19 +1,3 @@
 # WBDV-PROJECT
 
-<!DOCTYPE html>
-
-<html>
-
-      <head>
-
-      </head>
-
-   <body>
-
- <p> Hello</p>
-
-   <body>
-
-
-
-</html>
+Proceed to the "Baseline" 
