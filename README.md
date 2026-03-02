@@ -1,6 +1,6 @@
 # WBDV-PROJECT
 
-<!DO TYPE html>
+<!DOCTYPE html>
 
 <html>
 
