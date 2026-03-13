@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<!-- Edit dito if may changes sa structure -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniMe | Family Matching Sets</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .product-card img {
+            transition: transform 0.5s ease;
+        }
+
+        .product-card:hover img {
+            transform: scale(1.03);
+        }
+
+        .badge {
+            background: #d4a373;
+            color: white;
+            padding: 2px 8px;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body class="bg-[#fafafa] text-gray-900">
+
+    <!-- Announcement Bar -->
+    <div class="bg-black text-white text-[10px] tracking-[0.2em] py-2 text-center uppercase">
+        Free Shipping on Family Sets over ₱2,500
+    </div>
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="text-2xl font-bold tracking-tighter">MiniMe</div>
+            
+            <div class="hidden md:flex space-x-8 text-[11px] font-bold uppercase tracking-widest">
+                <a href="#" class="text-black underline underline-offset-8">New In</a>
+                <a href="#" class="text-gray-400 hover:text-black transition">Family Sets</a>
+                <a href="#" class="text-gray-400 hover:text-black transition">Mom & Me</a>
+                <a href="#" class="text-gray-400 hover:text-black transition">Dad & Me</a>
+            </div>
+
+            <div class="flex items-center space-x-4">
+                <button class="hover:opacity-60 transition text-sm font-medium">Search</button>
+                <button class="hover:opacity-60 transition text-sm font-medium">Bag (0)</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Collection Header -->
+    <section class="py-12 px-6 text-center bg-white border-b border-gray-100">
+        <span class="text-[10px] font-bold text-gray-400 uppercase tracking-[0.3em]">December Collection</span>
+        <h1 class="text-4xl font-bold mt-2 mb-4 italic">Cheska & Gab</h1>
+        <p class="text-gray-500 max-w-xl mx-auto text-sm">Matching sets for the whole family. Crafted with premium cotton linen fabric for comfort and style.</p>
+    </section>
+
+    <!-- Product Grid -->
+    <main class="max-w-7xl mx-auto px-6 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+            
+            <!-- Product 1: Krizzel Set (Hindi pa finalized yung picture) -->
+            <div class="product-card group cursor-pointer">
+                <div class="aspect-[4/5] bg-gray-200 overflow-hidden mb-5 relative">
+                    <img src="1000018688.jpg" alt="Krizzel Family Set Rose" class="w-full h-full object-cover">
+                    <div class="absolute top-4 left-4">
+                        <span class="badge">Bestseller</span>
+                    </div>
+                </div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-lg font-semibold tracking-tight">Krizzel Family Set</h3>
+                        <p class="text-xs text-gray-500 uppercase tracking-wider mb-2">Rose Pink • Cotton Linen</p>
+                    </div>
+                    <p class="font-bold text-lg">₱1,160 <span class="text-[10px] text-gray-400 font-normal">(Set of 3)</span></p>
+                </div>
+                <div class="mt-4 pt-4 border-t border-gray-100 grid grid-cols-3 gap-2 text-[10px] text-gray-500 font-medium text-center uppercase">
+                    <div>Twin: ₱815</div>
+                    <div>Dad: ₱345</div>
+                    <div>Son: ₱245</div>
+                </div>
+            </div>
+
+            <!-- Product 2: Krizzel Set (Hindi pa finalized yung picture) -->
+            <div class="product-card group cursor-pointer">
+                <div class="aspect-[4/5] bg-gray-200 overflow-hidden mb-5 relative">
+                    <img src="1000018689.jpg" alt="Krizzel Family Set Forest" class="w-full h-full object-cover">
+                </div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-lg font-semibold tracking-tight">Krizzel Family Set</h3>
+                        <p class="text-xs text-gray-500 uppercase tracking-wider mb-2">Forest Green • Cotton Linen</p>
+                    </div>
+                    <p class="font-bold text-lg">₱1,160 <span class="text-[10px] text-gray-400 font-normal">(Set of 3)</span></p>
+                </div>
+                <div class="mt-4 pt-4 border-t border-gray-100 grid grid-cols-3 gap-2 text-[10px] text-gray-500 font-medium text-center uppercase">
+                    <div>Twin: ₱815</div>
+                    <div>Dad: ₱345</div>
+                    <div>Son: ₱245</div>
+                </div>
+            </div>
+
+            <!-- Product 3: Eula Set (Hindi pa finalized yung picture) -->
+            <div class="product-card group cursor-pointer">
+                <div class="aspect-[4/5] bg-gray-200 overflow-hidden mb-5 relative">
+                    <img src="1000018690.jpg" alt="Eula Family Set" class="w-full h-full object-cover">
+                    <div class="absolute top-4 left-4">
+                        <span class="badge">New Arrival</span>
+                    </div>
+                </div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-lg font-semibold tracking-tight">Eula Family Set</h3>
+                        <p class="text-xs text-gray-500 uppercase tracking-wider mb-2">Custom Embroidered Patterns</p>
+                    </div>
+                    <p class="font-bold text-lg">₱1,160</p>
+                </div>
+                <p class="text-[10px] text-gray-400 mt-2 italic">Available in Lavender, Red, Yellow, and White</p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer (edit if needed)-->
+    <footer class="bg-white border-t border-gray-100 pt-20 pb-10">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div>
+                <div class="text-xl font-bold mb-4">MiniMe</div>
+                <p class="text-xs text-gray-500 leading-loose uppercase tracking-widest">
+                    Matching moments made better.<br>
+                    Hand-finished in the Philippines.
+                </p>
+            </div>
+            <div class="flex flex-col space-y-3 text-[11px] font-bold uppercase tracking-widest">
+                <a href="#">Size Guide</a>
+                <a href="#">Order Tracking</a>
+                <a href="#">Bulk Orders</a>
+            </div>
+            <div class="text-[11px] font-bold uppercase tracking-widest">
+                <p>Facebook: MiniMe</p>
+            </div>
+        </div>
+        <div class="text-center mt-20 text-[10px] text-gray-300 tracking-[0.2em] uppercase">
+            © 2021 MiniMe
+        </div>
+    </footer>
+
+</body>
+</html>
+
