@@ -1,3 +1,1 @@
-# WBDV-PROJECT
-
-Proceed to the "BASELINE". 
+Separated HTML, CSS, and Javascript
