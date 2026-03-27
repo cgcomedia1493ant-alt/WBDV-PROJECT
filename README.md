@@ -1,1 +1,0 @@
-Separated HTML, CSS, and Javascript
