@@ -36,7 +36,7 @@ const productData = {
 
 // 3. DOM Elements
 const productModal = document.getElementById('product-modal');
-const modalContent = document.getElementById('modal-content');
+let modalContent = document.getElementById('modal-content');
 
 // 4. Modal Functions
 function openModal(productId) {
